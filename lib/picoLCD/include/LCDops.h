@@ -1,0 +1,15 @@
+void LCDinit();
+void LCDclear();
+void E_INSTRUCTION();
+void E_DATA();
+void LCDgoto(char hexstring[]);
+void LCDwriteMessage(char message[]);
+void LCDwriteRawMessage(char message[]);
+void LCDsendRawInstruction(int RS_PIN, int RW_PIN, char binary[]);
+void LCDwriteAscii(int code);
+void LCDdisplayControl(int display, int cursor, int blink);
+void LCDcreateCharacter(int charnum, char line1[], char line2[], char line3[], char line4[], char line5[], char line6[], char line7[], char line8[]);
+void LCDwriteCustomCharacter(int characterNum);
+void LCDshiftCursor(int rl);
+void LCDshiftDisplay(int rl);
+void detectLCD();
