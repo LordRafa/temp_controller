@@ -1,0 +1,23 @@
+{
+  "cmake.configureOnOpen": false,
+  "cmake.statusbar.advanced": {
+    "debug": {
+      "visibility": "hidden"
+    },
+    "launch": {
+      "visibility": "hidden"
+    },
+    "build": {
+      "visibility": "compact"
+    },
+    "buildTarget": {
+      "visibility": "compact"
+    },
+  },
+  "files.associations": {
+    "helper_lcd.h": "c",
+    "lcdops.h": "c",
+    "temp_controller.h": "c",
+    "helper_pwm.h": "c"
+  },
+}
